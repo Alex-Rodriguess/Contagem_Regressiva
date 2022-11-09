@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('https://cdn6.campograndenews.com.br/uploads/noticias/2021/09/10/5a7fae3b157c21155b900bfe8969e386de34528d.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    color: white;
+    font-family: serif;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.countdown {
+    display: flex;
+    margin: 15px;
+}
+

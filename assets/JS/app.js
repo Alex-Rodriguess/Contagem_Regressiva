@@ -1,4 +1,4 @@
-const secondsContainer = document.getElementById('#seconds')
+const secondsContainer = document.querySelector('#seconds')
 const minutesContainer = document.querySelector('#minutes')
 const hoursContainer = document.querySelector('#hours')
 const daysContainer = document.querySelector('#days')
@@ -17,6 +17,9 @@ const updateCountdown = () => {
 
 
     secondsContainer.textContent = seconds
+    minutesContainer.textContent = minutes
+    hoursContainer.textContent = hours
+    daysContainer.textContent = days
 
 }
 setInterval(updateCountdown, 1000)

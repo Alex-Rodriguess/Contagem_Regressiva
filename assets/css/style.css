@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url('https://cdn6.campograndenews.com.br/uploads/noticias/2021/09/10/5a7fae3b157c21155b900bfe8969e386de34528d.jpeg');
+    background-image: url('https://ichef.bbci.co.uk/news/640/cpsprodpb/38C3/production/_105013541_gettyimages-530944604.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -16,14 +16,26 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    
 
 }
 
 .countdown {
     display: flex;
+    align-items: center;
     margin: 15px;
+    position: relative;
+    left: 10em;
 }
 
 h1{
     padding: 1em;
+}
+
+.ano{
+    position: relative;
+    top: 2em;
+    right: 4em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
 }

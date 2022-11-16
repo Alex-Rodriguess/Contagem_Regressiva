@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url('https://th.bing.com/th/id/OIP.SJcrF-s1uwdU6KlKCqo3hQHaEj?pid=ImgDet&rs=1');
+    background-image: url('https://www.experto.de/wp-content/uploads/2011/02/AdobeStock_218190610-1024x684.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -37,4 +37,11 @@ h1{
     top: 1em;
     font-family:sans-serif;
     font-size: 80px;
+}
+
+@media screen and (max-width: 600px){
+    body {
+        background-position-x: right;
+        
+    }
 }

@@ -1,3 +1,5 @@
+
+
 * {
     padding: 0;
     margin: 0;
@@ -30,6 +32,10 @@ body {
 
 h1{
     padding: 1em;
+    @font-face {
+        font-family: styles;
+        src: url('https://www.fontspace.com/digital-7-font-f7087');
+    }
 }
 
 .ano{

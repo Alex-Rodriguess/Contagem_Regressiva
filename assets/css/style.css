@@ -9,7 +9,7 @@ body {
     background-size: cover;
     background-position: center center;
     height: 100vh;
-    color: white;
+    color: rgb(253, 253, 253);
     font-family: serif;
     display: flex;
     flex-direction:column;

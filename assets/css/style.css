@@ -1,26 +1,53 @@
+
+
 * {
     padding: 0;
     margin: 0;
 }
 
 body {
-    background-image: url('https://cdn6.campograndenews.com.br/uploads/noticias/2021/09/10/5a7fae3b157c21155b900bfe8969e386de34528d.jpeg');
+    background-image: url('https://www.experto.de/wp-content/uploads/2011/02/AdobeStock_218190610-1024x684.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     height: 100vh;
-    color: rgb(253, 253, 253);
+    color: rgb(255, 255, 255);
     font-family: serif;
     display: flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    
 
 }
 
 .countdown {
     display: flex;
+    align-items: center;
     margin: 15px;
+    position: relative;
+    
 }
 
+h1{
+    padding: 1em;
+    @font-face {
+        font-family: styles;
+        src: url('https://www.fontspace.com/digital-7-font-f7087');
+    }
+}
+
+.ano{
+    position: relative;
+    top: 1em;
+    font-family:sans-serif;
+    font-size: 80px;
+}
+
+@media screen and (max-width: 600px){
+    body {
+        background-position-x: right;
+        
+    }
+}

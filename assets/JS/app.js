@@ -14,21 +14,13 @@ const updateCountdown = () => {
     const minutes = Math.floor(difference / 1000 / 60) % 60
     const seconds = Math.floor(difference / 1000) % 60
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> dab4a1ef4226f36293050002020b85c3acf5387c
     secondsContainer.textContent = seconds
     minutesContainer.textContent = minutes
     hoursContainer.textContent = hours
     daysContainer.textContent = days
 
-<<<<<<< HEAD
 }   
 
     setInterval(updateCountdown, 1000)
-=======
-}
-setInterval(updateCountdown, 1000)
->>>>>>> dab4a1ef4226f36293050002020b85c3acf5387c
+
+    setInterval(updateCountdown, 1000)
